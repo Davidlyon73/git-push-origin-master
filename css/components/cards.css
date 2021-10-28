@@ -1,0 +1,31 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30;
+  margin-right: 200px;
+  margin-left: 200px;;
+}
+.card-one {
+  display: block;
+  border-style: solid;
+  border-color: grey;
+  border-width: 0.5px;
+  width: 250px;
+  height: 250px;
+  }
+
+.card-one img{
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  padding: 20px;
+}
+
+.card-one h3 {
+  font-size: 15px;
+  text-align: center ;
+}
+.card-one p {
+  font-size: 15px;
+  text-align: center ;
+}
